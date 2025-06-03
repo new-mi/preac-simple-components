@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "preview:build": "pnpm run build && pnpm run preview",
+    "build": "tsx ./scripts/build.ts"
+  },
+  "dependencies": {
+    "preact": "^10.25.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "eslint": "^9.28.0",
+    "eslint-config-preact": "^1.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.0.4",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  }
+}

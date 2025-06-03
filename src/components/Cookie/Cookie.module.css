@@ -1,0 +1,65 @@
+.root,
+.root *,
+.root *:before,
+.root *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  position: relative;
+  font-family: "system-ui, -apple-system, sans-serif";
+  font-size: 12px;
+  line-height: 1.5;
+
+  background-color: #fff;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.08) 0px 2px 4px 0px;
+  padding: 36px 24px 24px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  color: #63727e;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.button {
+  font: inherit;
+  background: rgb(0, 193, 162);
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 8px 32px;
+  font-style: normal;
+}
+
+.link {
+  color: #808e9a;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
