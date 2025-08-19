@@ -1,4 +1,4 @@
-import { ICoreComponentProps } from "@/types";
+import { type ICoreComponentProps } from "@/types";
 import classes from "./Cookie.module.css";
 import CookieIcon from "./cookie.svg?react";
 import { useLayoutEffect } from "preact/hooks";
